@@ -1,0 +1,93 @@
+.Login {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    width: 20em;
+    background-color:  var(--SecondBackground);
+    border-radius: 15px;
+    padding: 1em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h1 {
+    color: var(--PrymaryColor);
+}
+
+.h1 {
+    margin: 0;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.h2 {
+    margin: 0;
+}
+
+.input[type=text] {
+    width: calc(100% - 2em);
+    padding: 1em;
+    border-style: none;
+    border-radius: 12px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.input[type=email] {
+    width: calc(100% - 2em);
+    padding: 1em;
+    border-style: none;
+    border-radius: 12px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.input[type=password] {
+    width: calc(100% - 2em);
+    padding: 1em;
+    border-style: none;
+    border-radius: 12px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.input[type=submit] {
+    width: 100%;
+    padding: 1em;
+    border-style: none;
+    border-radius: 12px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    background: rgb(89,131,255);
+    background: var(--PryButtonCol);
+    color: white;
+    font-weight: bold;
+}
+
+.input[type=submit]:hover {
+    background: rgb(69,101,195);
+    background: var(--PryButtonColHov);
+}
+
+.input[type=submit]:active {
+    background: rgb(69,101,195);
+    background: var(--PryButtonColAct);
+}
+
+.Error {
+    color: red;
+    margin: 0.5em;
+    margin-left: 0;
+}
+
+/* Tablet */
+@media only screen and (max-width: 780px) {
+    
+}
+
+/* Phone */
+@media only screen and (max-width: 420px) {
+    .Login {
+        width: calc(100% - 5em);
+    }
+}

@@ -1,0 +1,71 @@
+:root {
+  --backgroundColor: #202020;
+  --ThirdBackground: #181818;
+  --SecondBackground: #161616;
+  --PrymaryColor: #5c9aff;
+  --PrymaryColorDisabled: #4071c2;
+  
+  --PryButtonCol: linear-gradient(45deg, #ff4057 16%, #a83946 100%);
+  --PryButtonColHov: linear-gradient(45deg, #d14454 16%, #a83f4c 100%);
+  --PryButtonColAct: linear-gradient(45deg, #b34652 16%, #963a45 100%);
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+html {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%; 
+  background-color: var(--backgroundColor);
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#__next {
+  height: 100%; 
+  position: relative;
+}
+
+main {
+  z-index: 1;
+  margin-top: 3em;
+  width: calc(100% - 6.2em);
+  padding: 0em;
+  width: 100%;
+  min-height: calc(100% - 9em);
+  float: left;
+}
+
+button {
+  padding: 1em;
+  float: left;
+  height: 3em;
+  border-style: none;
+  border-radius: 12px;
+  color: white;
+  background: var(--PryButtonCol);
+}
+
+button:hover {
+  color: white;
+  background: var(--PryButtonColHov);
+}
+
+button:active {
+  color: white;
+  background: var(--PryButtonColAct);
+}

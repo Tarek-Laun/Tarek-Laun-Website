@@ -1,0 +1,24 @@
+.footer {
+    height: 4em;
+    width: calc(100% - 2em);
+    float: left;
+    padding: 1em;
+    background-color: var(--ThirdBackground);
+    position: sticky;
+    bottom: 0;
+}
+
+.footer a {
+    float: left;
+    display: block;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.footer li {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}

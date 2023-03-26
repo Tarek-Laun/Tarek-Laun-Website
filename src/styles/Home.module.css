@@ -1,0 +1,201 @@
+.GridContainer {
+  width: 100%;
+  height: 100%;
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fill, minmax(22em, 1fr));
+  place-items: center;
+  grid-column-gap: 1em;
+}
+
+.Card {
+  grid-column: auto;
+  background: var(--SecondBackground);
+  width: 20em;
+  padding: 1em;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #79739c;
+  margin: 0.5em;
+}
+
+.Card p {
+  margin: 0;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.about {
+  float: left;
+  width: 50%;
+  padding: 1em;
+  text-align: left;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.about h2 {
+  text-align: center;
+  margin: 0;
+  color: var(--PrymaryColor);
+}
+
+.games {
+  padding: 1em;
+  float: left;
+  text-align: center;
+  width: calc(100% - 2em);
+}
+
+.games h2 {
+  margin: 0;
+  color: var(--PrymaryColor);
+}
+
+.cards{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 0.5em;
+  grid-auto-flow: column;
+}
+
+.gameCard {
+  position: relative;
+  float: left;
+  width: 15em;
+  background-color: var(--SecondBackground);
+  text-align: left;
+  border-radius: 10px;
+}
+
+.gameCardContent h3 {
+  margin-bottom: 0;
+}
+
+.gameCardContent p {
+  margin-top: 0.5;
+}
+
+.gameCardContent {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 3em;
+}
+
+.gameCard a {
+  background-color: var(--PrymaryColor);
+  padding: 0.75em;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+}
+
+.gameCard img {
+  width: 15em;
+  border-radius: 9px 9px 0 0;
+}
+
+.blog {
+  padding: 1em;
+  float: left;
+  text-align: center;
+  width: calc(100% - 2em);
+}
+
+.blog h2 {
+  margin: 0;
+  color: var(--PrymaryColor);
+}
+
+.first {
+  border-radius: 10px 10px 0 0;
+}
+
+.first img {
+  border-radius: 10px 10px 0 0;
+}
+
+.last {
+  border-radius: 0 0 10px 10px;
+}
+
+.blogEntry {
+  background-color: var(--SecondBackground);
+  width: 100%;
+  height: 4em;
+  text-align: left;
+}
+
+.blogEntry img {
+  height: 4em;
+  float: left;
+}
+
+.blogEntry h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.blogEntry p {
+  margin-top: 0.4em;
+  margin-bottom: 0;
+}
+
+.blogContent {
+  padding: 0.5em;
+  float: left;
+}
+
+.blogentrys {
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.downloadBackground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.downloads {
+  min-width: 15em;
+  padding: 1em;
+  background: var(--SecondBackground);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.downloads a {
+  margin: 0.5em;
+  width: var(100% - 2em);
+  background-color: var(--PrymaryColor);
+  padding: 0.75em;
+  border-radius: 10px;
+  display: block;
+}
+
+
+@media only screen and (max-width: 730px) { 
+  .cards{
+    grid-auto-flow: row;
+  }
+}
+
+@media only screen and (max-width: 900px) { 
+  .about {
+    width: 90%;
+  }
+}
+
