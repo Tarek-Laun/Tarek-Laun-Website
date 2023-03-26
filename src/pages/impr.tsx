@@ -27,8 +27,8 @@ export default function Impr() {
           <p>Address: Katharinenstrasse 36,</p>
           <p>73728 Esslingen am Neckar,</p>
           <p>Germany</p>
-          <p>Tel.: +49 0176 76753416</p>
-          <p>Email: <a href="mailto:tarek.laun@lk-entertainment.com"> tarek.laun@lk-entertainment.com</a></p>
+          <p>Tel.: +49 0176 76753416</p>          
+          <p>Email: <a href="mailto:tareklaun@hotmail.com"> tareklaun@hotmail.com</a></p>
           </>
           :<>
           <h2>Impressum</h2>
@@ -36,8 +36,8 @@ export default function Impr() {
           <p>Adresse: Katharinenstraße 36,</p>
           <p>73728 Esslingen am Neckar,</p>
           <p>Deutschland</p>
-          <p>Tel.: +49 0176 76753416</p>
-          <p>Email: <a href="mailto:tarek.laun@lk-entertainment.com"> tarek.laun@lk-entertainment.com</a></p>
+          <p>Tel.: +49 0176 76753416</p>          
+          <p>Email: <a href="mailto:tareklaun@hotmail.com"> tareklaun@hotmail.com</a></p>
           </>
           }
         </div>
